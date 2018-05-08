@@ -1,0 +1,2247 @@
+{
+  "1": {
+    "country": "United States of America",
+    "mcc": [
+      "310",
+      "311",
+      "312",
+      "313",
+      "314",
+      "315",
+      "316"
+    ],
+    "ISO3166": "US",
+    "ISO639": "en",
+    "mnc": "150"
+  },
+  "20": {
+    "country": "Egypt",
+    "mcc": [
+      "602"
+    ],
+    "ISO3166": "EG",
+    "ISO639": "ar",
+    "mnc": "002"
+  },
+  "27": {
+    "country": "South Africa",
+    "mcc": [
+      "655"
+    ],
+    "ISO3166": "ZA",
+    "ISO639": "xh",
+    "mnc": "001"
+  },
+  "30": {
+    "country": "Greece",
+    "mcc": [
+      "202"
+    ],
+    "ISO3166": "GR",
+    "ISO639": "el",
+    "mnc": "001"
+  },
+  "31": {
+    "country": "Netherlands",
+    "mcc": [
+      "204"
+    ],
+    "ISO3166": "NL",
+    "ISO639": "nl",
+    "mnc": "004"
+  },
+  "32": {
+    "country": "Belgium",
+    "mcc": [
+      "206"
+    ],
+    "ISO3166": "BE",
+    "ISO639": "nl",
+    "mnc": "001"
+  },
+  "33": {
+    "country": "France",
+    "mcc": [
+      "208"
+    ],
+    "ISO3166": "FR",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "34": {
+    "country": "Spain",
+    "mcc": [
+      "214"
+    ],
+    "ISO3166": "ES",
+    "ISO639": "es",
+    "mnc": "007"
+  },
+  "36": {
+    "country": "Hungary",
+    "mcc": [
+      "216"
+    ],
+    "ISO3166": "HU",
+    "ISO639": "hu",
+    "mnc": "001"
+  },
+  "39": {
+    "country": "Italy",
+    "mcc": [
+      "222"
+    ],
+    "ISO3166": "IT",
+    "ISO639": "it",
+    "mnc": "001"
+  },
+  "40": {
+    "country": "Romania",
+    "mcc": [
+      "226"
+    ],
+    "ISO3166": "RO",
+    "ISO639": "ro",
+    "mnc": "001"
+  },
+  "41": {
+    "country": "Switzerland",
+    "mcc": [
+      "228"
+    ],
+    "ISO3166": "CH",
+    "ISO639": "de",
+    "mnc": "001"
+  },
+  "43": {
+    "country": "Austria",
+    "mcc": [
+      "232"
+    ],
+    "ISO3166": "AT",
+    "ISO639": "de",
+    "mnc": "001"
+  },
+  "44": {
+    "country": "United Kingdom",
+    "mcc": [
+      "234",
+      "235"
+    ],
+    "ISO3166": "GB",
+    "ISO639": "en",
+    "mnc": "002"
+  },
+  "45": {
+    "country": "Denmark",
+    "mcc": [
+      "238"
+    ],
+    "ISO3166": "DK",
+    "ISO639": "da",
+    "mnc": "001"
+  },
+  "46": {
+    "country": "Sweden",
+    "mcc": [
+      "240"
+    ],
+    "ISO3166": "SE",
+    "ISO639": "sv",
+    "mnc": "001"
+  },
+  "47": {
+    "country": "Norway",
+    "mcc": [
+      "242"
+    ],
+    "ISO3166": "NO",
+    "ISO639": "nb",
+    "mnc": "001"
+  },
+  "48": {
+    "country": "Poland",
+    "mcc": [
+      "260"
+    ],
+    "ISO3166": "PL",
+    "ISO639": "pl",
+    "mnc": "001"
+  },
+  "49": {
+    "country": "Germany",
+    "mcc": [
+      "262"
+    ],
+    "ISO3166": "DE",
+    "ISO639": "de",
+    "mnc": "001"
+  },
+  "51": {
+    "country": "Peru",
+    "mcc": [
+      "716"
+    ],
+    "ISO3166": "PE",
+    "ISO639": "es",
+    "mnc": "006"
+  },
+  "52": {
+    "country": "Mexico",
+    "mcc": [
+      "334"
+    ],
+    "ISO3166": "MX",
+    "ISO639": "es",
+    "mnc": "030"
+  },
+  "53": {
+    "country": "Cuba",
+    "mcc": [
+      "368"
+    ],
+    "ISO3166": "CU",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "54": {
+    "country": "Argentina",
+    "mcc": [
+      "722"
+    ],
+    "ISO3166": "AR",
+    "ISO639": "es",
+    "mnc": "010"
+  },
+  "55": {
+    "country": "Brazil",
+    "mcc": [
+      "724"
+    ],
+    "ISO3166": "BR",
+    "ISO639": "pt",
+    "mnc": "002"
+  },
+  "56": {
+    "country": "Chile",
+    "mcc": [
+      "730"
+    ],
+    "ISO3166": "CL",
+    "ISO639": "es",
+    "mnc": "002"
+  },
+  "57": {
+    "country": "Colombia",
+    "mcc": [
+      "732"
+    ],
+    "ISO3166": "CO",
+    "ISO639": "es",
+    "mnc": "102"
+  },
+  "58": {
+    "country": "Venezuela",
+    "mcc": [
+      "734"
+    ],
+    "ISO3166": "VE",
+    "ISO639": "es",
+    "mnc": "004"
+  },
+  "60": {
+    "country": "Malaysia",
+    "mcc": [
+      "502"
+    ],
+    "ISO3166": "MY",
+    "ISO639": "en",
+    "mnc": "013"
+  },
+  "61": {
+    "country": "Australia",
+    "mcc": [
+      "505"
+    ],
+    "ISO3166": "AU",
+    "ISO639": "en",
+    "mnc": "003"
+  },
+  "62": {
+    "country": "Indonesia",
+    "mcc": [
+      "510"
+    ],
+    "ISO3166": "ID",
+    "ISO639": "id",
+    "mnc": "001"
+  },
+  "63": {
+    "country": "Philippines",
+    "mcc": [
+      "515"
+    ],
+    "ISO3166": "PH",
+    "ISO639": "fil",
+    "mnc": "002"
+  },
+  "64": {
+    "country": "New Zealand",
+    "mcc": [
+      "530"
+    ],
+    "ISO3166": "NZ",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "65": {
+    "country": "Singapore",
+    "mcc": [
+      "525"
+    ],
+    "ISO3166": "SG",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "66": {
+    "country": "Thailand",
+    "mcc": [
+      "520"
+    ],
+    "ISO3166": "TH",
+    "ISO639": "th",
+    "mnc": "018"
+  },
+  "77": {
+    "country": "Kazakhstan",
+    "mcc": [
+      "401"
+    ],
+    "ISO3166": "KZ",
+    "ISO639": "kk",
+    "mnc": "001"
+  },
+  "79": {
+    "country": "Russia",
+    "mcc": [
+      "250"
+    ],
+    "ISO3166": "RU",
+    "ISO639": "ru",
+    "mnc": "001"
+  },
+  "81": {
+    "country": "Japan",
+    "mcc": [
+      "440",
+      "441"
+    ],
+    "ISO3166": "JP",
+    "ISO639": "ja",
+    "mnc": "001"
+  },
+  "82": {
+    "country": "South Korea",
+    "mcc": [
+      "450"
+    ],
+    "ISO3166": "KR",
+    "ISO639": "ko",
+    "mnc": "005"
+  },
+  "84": {
+    "country": "Vietnam",
+    "mcc": [
+      "452"
+    ],
+    "ISO3166": "VN",
+    "ISO639": "vi",
+    "mnc": "001"
+  },
+  "86": {
+    "country": "China",
+    "mcc": [
+      "460",
+      "461"
+    ],
+    "ISO3166": "CN",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "90": {
+    "country": "Turkey",
+    "mcc": [
+      "286"
+    ],
+    "ISO3166": "TR",
+    "ISO639": "tr",
+    "mnc": "001"
+  },
+  "91": {
+    "country": "India",
+    "mcc": [
+      "404",
+      "405",
+      "406"
+    ],
+    "ISO3166": "IN",
+    "ISO639": "hi",
+    "mnc": "011"
+  },
+  "92": {
+    "country": "Pakistan",
+    "mcc": [
+      "410"
+    ],
+    "ISO3166": "PK",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "93": {
+    "country": "Afghanistan",
+    "mcc": [
+      "412"
+    ],
+    "ISO3166": "AF",
+    "ISO639": "ps",
+    "mnc": "040"
+  },
+  "94": {
+    "country": "Sri Lanka",
+    "mcc": [
+      "413"
+    ],
+    "ISO3166": "LK",
+    "ISO639": "si",
+    "mnc": "001"
+  },
+  "95": {
+    "country": "Myanmar",
+    "mcc": [
+      "414"
+    ],
+    "ISO3166": "MM",
+    "ISO639": "my",
+    "mnc": "005"
+  },
+  "98": {
+    "country": "Iran",
+    "mcc": [
+      "432"
+    ],
+    "ISO3166": "IR",
+    "ISO639": "fa",
+    "mnc": "011"
+  },
+  "211": {
+    "country": "South Sudan",
+    "mcc": [
+      "659"
+    ],
+    "ISO3166": "SS",
+    "ISO639": "en",
+    "mnc": "002"
+  },
+  "212": {
+    "country": "Morocco",
+    "mcc": [
+      "604"
+    ],
+    "ISO3166": "MA",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "213": {
+    "country": "Algeria",
+    "mcc": [
+      "603"
+    ],
+    "ISO3166": "DZ",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "216": {
+    "country": "Tunisia",
+    "mcc": [
+      "605"
+    ],
+    "ISO3166": "TN",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "218": {
+    "country": "Libya",
+    "mcc": [
+      "606"
+    ],
+    "ISO3166": "LY",
+    "ISO639": "ar",
+    "mnc": "003"
+  },
+  "220": {
+    "country": "Gambia",
+    "mcc": [
+      "607"
+    ],
+    "ISO3166": "GM",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "221": {
+    "country": "Senegal",
+    "mcc": [
+      "608"
+    ],
+    "ISO3166": "SN",
+    "ISO639": "wo",
+    "mnc": "001"
+  },
+  "222": {
+    "country": "Mauritania",
+    "mcc": [
+      "609"
+    ],
+    "ISO3166": "MR",
+    "ISO639": "ar",
+    "mnc": "002"
+  },
+  "223": {
+    "country": "Mali",
+    "mcc": [
+      "610"
+    ],
+    "ISO3166": "ML",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "224": {
+    "country": "Guinea",
+    "mcc": [
+      "611"
+    ],
+    "ISO3166": "GN",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "226": {
+    "country": "Burkina Faso",
+    "mcc": [
+      "613"
+    ],
+    "ISO3166": "BF",
+    "ISO639": "fr",
+    "mnc": "002"
+  },
+  "227": {
+    "country": "Niger",
+    "mcc": [
+      "614"
+    ],
+    "ISO3166": "NE",
+    "ISO639": "fr",
+    "mnc": "004"
+  },
+  "228": {
+    "country": "Togo",
+    "mcc": [
+      "615"
+    ],
+    "ISO3166": "TG",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "229": {
+    "country": "Benin",
+    "mcc": [
+      "616"
+    ],
+    "ISO3166": "BJ",
+    "ISO639": "fr",
+    "mnc": "003"
+  },
+  "230": {
+    "country": "Mauritius",
+    "mcc": [
+      "617"
+    ],
+    "ISO3166": "MU",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "231": {
+    "country": "Liberia",
+    "mcc": [
+      "618"
+    ],
+    "ISO3166": "LR",
+    "ISO639": "en",
+    "mnc": "007"
+  },
+  "232": {
+    "country": "Sierra Leone",
+    "mcc": [
+      "619"
+    ],
+    "ISO3166": "SL",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "233": {
+    "country": "Ghana",
+    "mcc": [
+      "620"
+    ],
+    "ISO3166": "GH",
+    "ISO639": "ak",
+    "mnc": "001"
+  },
+  "234": {
+    "country": "Nigeria",
+    "mcc": [
+      "621"
+    ],
+    "ISO3166": "NG",
+    "ISO639": "ha",
+    "mnc": "020"
+  },
+  "235": {
+    "country": "Chad",
+    "mcc": [
+      "622"
+    ],
+    "ISO3166": "TD",
+    "ISO639": "fr",
+    "mnc": "003"
+  },
+  "236": {
+    "country": "Central African Republic",
+    "mcc": [
+      "623"
+    ],
+    "ISO3166": "CF",
+    "ISO639": "sg",
+    "mnc": "001"
+  },
+  "237": {
+    "country": "Cameroon",
+    "mcc": [
+      "624"
+    ],
+    "ISO3166": "CM",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "238": {
+    "country": "Cape Verde",
+    "mcc": [
+      "625"
+    ],
+    "ISO3166": "CV",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "239": {
+    "country": "Sao Tome and Principe",
+    "mcc": [
+      "626"
+    ],
+    "ISO3166": "ST",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "240": {
+    "country": "Equatorial Guinea",
+    "mcc": [
+      "627"
+    ],
+    "ISO3166": "GQ",
+    "ISO639": "es",
+    "mnc": "003"
+  },
+  "241": {
+    "country": "Gabon",
+    "mcc": [
+      "628"
+    ],
+    "ISO3166": "GA",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "242": {
+    "country": "Republic of the Congo",
+    "mcc": [
+      "629"
+    ],
+    "ISO3166": "CG",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "243": {
+    "country": "Democratic Republic of the Congo",
+    "mcc": [
+      "630"
+    ],
+    "ISO3166": "CD",
+    "ISO639": "fr",
+    "mnc": "086"
+  },
+  "244": {
+    "country": "Angola",
+    "mcc": [
+      "631"
+    ],
+    "ISO3166": "AO",
+    "ISO639": "pt",
+    "mnc": "002"
+  },
+  "245": {
+    "country": "Guinea-Bissau",
+    "mcc": [
+      "632"
+    ],
+    "ISO3166": "GW",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "246": {
+    "country": "British Indian Ocean Territory",
+    "mcc": [
+      "348"
+    ],
+    "ISO3166": "IO",
+    "ISO639": "en",
+    "mnc": "170"
+  },
+  "247": {
+    "country": "Ascension",
+    "mcc": [
+      "658"
+    ],
+    "ISO3166": "AC",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "248": {
+    "country": "Seychelles",
+    "mcc": [
+      "633"
+    ],
+    "ISO3166": "SC",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "249": {
+    "country": "Sudan",
+    "mcc": [
+      "634"
+    ],
+    "ISO3166": "SD",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "250": {
+    "country": "Rwanda",
+    "mcc": [
+      "635"
+    ],
+    "ISO3166": "RW",
+    "ISO639": "rw",
+    "mnc": "013"
+  },
+  "251": {
+    "country": "Ethiopia",
+    "mcc": [
+      "636"
+    ],
+    "ISO3166": "ET",
+    "ISO639": "am",
+    "mnc": "001"
+  },
+  "252": {
+    "country": "Somalia",
+    "mcc": [
+      "637"
+    ],
+    "ISO3166": "SO",
+    "ISO639": "so",
+    "mnc": "001"
+  },
+  "253": {
+    "country": "Djibouti",
+    "mcc": [
+      "638"
+    ],
+    "ISO3166": "DJ",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "254": {
+    "country": "Kenya",
+    "mcc": [
+      "639"
+    ],
+    "ISO3166": "KE",
+    "ISO639": "sw",
+    "mnc": "002"
+  },
+  "255": {
+    "country": "Tanzania",
+    "mcc": [
+      "640"
+    ],
+    "ISO3166": "TZ",
+    "ISO639": "sw",
+    "mnc": "002"
+  },
+  "256": {
+    "country": "Uganda",
+    "mcc": [
+      "641"
+    ],
+    "ISO3166": "UG",
+    "ISO639": "sw",
+    "mnc": "001"
+  },
+  "257": {
+    "country": "Burundi",
+    "mcc": [
+      "642"
+    ],
+    "ISO3166": "BI",
+    "ISO639": "rn",
+    "mnc": "001"
+  },
+  "258": {
+    "country": "Mozambique",
+    "mcc": [
+      "643"
+    ],
+    "ISO3166": "MZ",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "260": {
+    "country": "Zambia",
+    "mcc": [
+      "645"
+    ],
+    "ISO3166": "ZM",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "261": {
+    "country": "Madagascar",
+    "mcc": [
+      "646"
+    ],
+    "ISO3166": "MG",
+    "ISO639": "mg",
+    "mnc": "001"
+  },
+  "262": {
+    "country": "Reunion",
+    "mcc": [
+      "647"
+    ],
+    "ISO3166": "RE",
+    "ISO639": "fr",
+    "mnc": "002"
+  },
+  "263": {
+    "country": "Zimbabwe",
+    "mcc": [
+      "648"
+    ],
+    "ISO3166": "ZW",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "264": {
+    "country": "Namibia",
+    "mcc": [
+      "649"
+    ],
+    "ISO3166": "NA",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "265": {
+    "country": "Malawi",
+    "mcc": [
+      "650"
+    ],
+    "ISO3166": "MW",
+    "ISO639": "ny",
+    "mnc": "001"
+  },
+  "266": {
+    "country": "Lesotho",
+    "mcc": [
+      "651"
+    ],
+    "ISO3166": "LS",
+    "ISO639": "st",
+    "mnc": "001"
+  },
+  "267": {
+    "country": "Botswana",
+    "mcc": [
+      "652"
+    ],
+    "ISO3166": "BW",
+    "ISO639": "en",
+    "mnc": "002"
+  },
+  "268": {
+    "country": "Swaziland",
+    "mcc": [
+      "653"
+    ],
+    "ISO3166": "SZ",
+    "ISO639": "ss",
+    "mnc": "010"
+  },
+  "269": {
+    "country": "Comoros",
+    "mcc": [
+      "654"
+    ],
+    "ISO3166": "KM",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "290": {
+    "country": "Saint Helena",
+    "mcc": [
+      "658"
+    ],
+    "ISO3166": "SH",
+    "ISO639": "en",
+    "mnc": "000"
+  },
+  "291": {
+    "country": "Eritrea",
+    "mcc": [
+      "657"
+    ],
+    "ISO3166": "ER",
+    "ISO639": "ti",
+    "mnc": "001"
+  },
+  "297": {
+    "country": "Aruba",
+    "mcc": [
+      "363"
+    ],
+    "ISO3166": "AW",
+    "ISO639": "nl",
+    "mnc": "001"
+  },
+  "298": {
+    "country": "Faroe Islands",
+    "mcc": [
+      "288"
+    ],
+    "ISO3166": "FO",
+    "ISO639": "fo",
+    "mnc": "001"
+  },
+  "299": {
+    "country": "Greenland",
+    "mcc": [
+      "290"
+    ],
+    "ISO3166": "GL",
+    "ISO639": "kl",
+    "mnc": "001"
+  },
+  "350": {
+    "country": "Gibraltar",
+    "mcc": [
+      "266"
+    ],
+    "ISO3166": "GI",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "351": {
+    "country": "Portugal",
+    "mcc": [
+      "268"
+    ],
+    "ISO3166": "PT",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "352": {
+    "country": "Luxembourg",
+    "mcc": [
+      "270"
+    ],
+    "ISO3166": "LU",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "353": {
+    "country": "Ireland (Eire)",
+    "mcc": [
+      "272"
+    ],
+    "ISO3166": "IE",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "354": {
+    "country": "Iceland",
+    "mcc": [
+      "274"
+    ],
+    "ISO3166": "IS",
+    "ISO639": "is",
+    "mnc": "001"
+  },
+  "355": {
+    "country": "Albania",
+    "mcc": [
+      "276"
+    ],
+    "ISO3166": "AL",
+    "ISO639": "sq",
+    "mnc": "002"
+  },
+  "356": {
+    "country": "Malta",
+    "mcc": [
+      "278"
+    ],
+    "ISO3166": "MT",
+    "ISO639": "mt",
+    "mnc": "001"
+  },
+  "357": {
+    "country": "Cyprus",
+    "mcc": [
+      "280"
+    ],
+    "ISO3166": "CY",
+    "ISO639": "el",
+    "mnc": "001"
+  },
+  "358": {
+    "country": "Finland",
+    "mcc": [
+      "244"
+    ],
+    "ISO3166": "FI",
+    "ISO639": "fi",
+    "mnc": "005"
+  },
+  "359": {
+    "country": "Bulgaria",
+    "mcc": [
+      "284"
+    ],
+    "ISO3166": "BG",
+    "ISO639": "bg",
+    "mnc": "003"
+  },
+  "370": {
+    "country": "Lithuania",
+    "mcc": [
+      "246"
+    ],
+    "ISO3166": "LT",
+    "ISO639": "lt",
+    "mnc": "001"
+  },
+  "371": {
+    "country": "Latvia",
+    "mcc": [
+      "247"
+    ],
+    "ISO3166": "LV",
+    "ISO639": "lv",
+    "mnc": "001"
+  },
+  "372": {
+    "country": "Estonia",
+    "mcc": [
+      "248"
+    ],
+    "ISO3166": "EE",
+    "ISO639": "et",
+    "mnc": "001"
+  },
+  "373": {
+    "country": "Moldova",
+    "mcc": [
+      "259"
+    ],
+    "ISO3166": "MD",
+    "ISO639": "ru",
+    "mnc": "001"
+  },
+  "374": {
+    "country": "Armenia",
+    "mcc": [
+      "283"
+    ],
+    "ISO3166": "AM",
+    "ISO639": "hy",
+    "mnc": "010"
+  },
+  "375": {
+    "country": "Belarus",
+    "mcc": [
+      "257"
+    ],
+    "ISO3166": "BY",
+    "ISO639": "be",
+    "mnc": "001"
+  },
+  "376": {
+    "country": "Andorra",
+    "mcc": [
+      "213"
+    ],
+    "ISO3166": "AD",
+    "ISO639": "ca",
+    "mnc": "003"
+  },
+  "377": {
+    "country": "Monaco",
+    "mcc": [
+      "212"
+    ],
+    "ISO3166": "MC",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "380": {
+    "country": "Ukraine",
+    "mcc": [
+      "255"
+    ],
+    "ISO3166": "UA",
+    "ISO639": "uk",
+    "mnc": "001"
+  },
+  "381": {
+    "country": "Serbia",
+    "mcc": [
+      "220"
+    ],
+    "ISO3166": "RS",
+    "ISO639": "sr",
+    "mnc": "001"
+  },
+  "382": {
+    "country": "Montenegro",
+    "mcc": [
+      "297"
+    ],
+    "ISO3166": "ME",
+    "ISO639": "sr",
+    "mnc": "001"
+  },
+  "385": {
+    "country": "Croatia",
+    "mcc": [
+      "219"
+    ],
+    "ISO3166": "HR",
+    "ISO639": "hr",
+    "mnc": "001"
+  },
+  "386": {
+    "country": "Slovenia",
+    "mcc": [
+      "293"
+    ],
+    "ISO3166": "SI",
+    "ISO639": "sl",
+    "mnc": "031"
+  },
+  "387": {
+    "country": "Bosnia and Herzegovina",
+    "mcc": [
+      "218"
+    ],
+    "ISO3166": "BA",
+    "ISO639": "bs",
+    "mnc": "003"
+  },
+  "389": {
+    "country": "Republic of Macedonia",
+    "mcc": [
+      "294"
+    ],
+    "ISO3166": "MK",
+    "ISO639": "mk",
+    "mnc": "001"
+  },
+  "420": {
+    "country": "Czech Republic",
+    "mcc": [
+      "230"
+    ],
+    "ISO3166": "CZ",
+    "ISO639": "cs",
+    "mnc": "001"
+  },
+  "421": {
+    "country": "Slovakia",
+    "mcc": [
+      "231"
+    ],
+    "ISO3166": "SK",
+    "ISO639": "sk",
+    "mnc": "001"
+  },
+  "423": {
+    "country": "Liechtenstein",
+    "mcc": [
+      "295"
+    ],
+    "ISO3166": "LI",
+    "ISO639": "de",
+    "mnc": "001"
+  },
+  "500": {
+    "country": "Falkland Islands",
+    "mcc": [
+      "750"
+    ],
+    "ISO3166": "FK",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "501": {
+    "country": "Belize",
+    "mcc": [
+      "702"
+    ],
+    "ISO3166": "BZ",
+    "ISO639": "es",
+    "mnc": "067"
+  },
+  "502": {
+    "country": "Guatemala",
+    "mcc": [
+      "704"
+    ],
+    "ISO3166": "GT",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "503": {
+    "country": "El Salvador",
+    "mcc": [
+      "706"
+    ],
+    "ISO3166": "SV",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "504": {
+    "country": "Honduras",
+    "mcc": [
+      "708"
+    ],
+    "ISO3166": "HN",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "505": {
+    "country": "Nicaragua",
+    "mcc": [
+      "710"
+    ],
+    "ISO3166": "NI",
+    "ISO639": "es",
+    "mnc": "030"
+  },
+  "506": {
+    "country": "Costa Rica",
+    "mcc": [
+      "712"
+    ],
+    "ISO3166": "CR",
+    "ISO639": "es",
+    "mnc": "004"
+  },
+  "507": {
+    "country": "Panama",
+    "mcc": [
+      "714"
+    ],
+    "ISO3166": "PA",
+    "ISO639": "es",
+    "mnc": "002"
+  },
+  "508": {
+    "country": "Saint Pierre and Miquelon",
+    "mcc": [
+      "308"
+    ],
+    "ISO3166": "PM",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "509": {
+    "country": "Haiti",
+    "mcc": [
+      "372"
+    ],
+    "ISO3166": "HT",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "590": {
+    "country": "Saint Martin (French side)",
+    "mcc": [
+      "340"
+    ],
+    "ISO3166": "MF",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "591": {
+    "country": "Bolivia",
+    "mcc": [
+      "736"
+    ],
+    "ISO3166": "BO",
+    "ISO639": "es",
+    "mnc": "002"
+  },
+  "592": {
+    "country": "Guyana",
+    "mcc": [
+      "738"
+    ],
+    "ISO3166": "GY",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "593": {
+    "country": "Ecuador",
+    "mcc": [
+      "740"
+    ],
+    "ISO3166": "EC",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "594": {
+    "country": "French Guiana",
+    "mcc": [
+      "340"
+    ],
+    "ISO3166": "GF",
+    "ISO639": "fr",
+    "mnc": "011"
+  },
+  "595": {
+    "country": "Paraguay",
+    "mcc": [
+      "744"
+    ],
+    "ISO3166": "PY",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "596": {
+    "country": "Martinique",
+    "mcc": [
+      "340"
+    ],
+    "ISO3166": "MQ",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "597": {
+    "country": "Suriname",
+    "mcc": [
+      "746"
+    ],
+    "ISO3166": "SR",
+    "ISO639": "nl",
+    "mnc": "002"
+  },
+  "598": {
+    "country": "Uruguay",
+    "mcc": [
+      "748"
+    ],
+    "ISO3166": "UY",
+    "ISO639": "es",
+    "mnc": "007"
+  },
+  "599": {
+    "country": "Netherlands Antilles",
+    "mcc": [
+      "362"
+    ],
+    "ISO3166": "AN",
+    "ISO639": "nl",
+    "mnc": "069"
+  },
+  "670": {
+    "country": "East Timor",
+    "mcc": [
+      "514"
+    ],
+    "ISO3166": "TL",
+    "ISO639": "pt",
+    "mnc": "001"
+  },
+  "673": {
+    "country": "Brunei",
+    "mcc": [
+      "528"
+    ],
+    "ISO3166": "BN",
+    "ISO639": "ms",
+    "mnc": "011"
+  },
+  "674": {
+    "country": "Nauru",
+    "mcc": [
+      "536"
+    ],
+    "ISO3166": "NR",
+    "ISO639": "na",
+    "mnc": "002"
+  },
+  "675": {
+    "country": "Papua New Guinea",
+    "mcc": [
+      "537"
+    ],
+    "ISO3166": "PG",
+    "ISO639": "ho",
+    "mnc": "001"
+  },
+  "676": {
+    "country": "Tonga",
+    "mcc": [
+      "539"
+    ],
+    "ISO3166": "TO",
+    "ISO639": "to",
+    "mnc": "001"
+  },
+  "677": {
+    "country": "Solomon Islands",
+    "mcc": [
+      "540"
+    ],
+    "ISO3166": "SB",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "678": {
+    "country": "Vanuatu",
+    "mcc": [
+      "541"
+    ],
+    "ISO3166": "VU",
+    "ISO639": "bi",
+    "mnc": "005"
+  },
+  "679": {
+    "country": "Fiji",
+    "mcc": [
+      "542"
+    ],
+    "ISO3166": "FJ",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "680": {
+    "country": "Palau",
+    "mcc": [
+      "552"
+    ],
+    "ISO3166": "PW",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "681": {
+    "country": "Wallis and Futuna",
+    "mcc": [
+      "543"
+    ],
+    "ISO3166": "WF",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "682": {
+    "country": "Cook Islands",
+    "mcc": [
+      "548"
+    ],
+    "ISO3166": "CK",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "683": {
+    "country": "Niue",
+    "mcc": [
+      "555"
+    ],
+    "ISO3166": "NU",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "685": {
+    "country": "Samoa",
+    "mcc": [
+      "549"
+    ],
+    "ISO3166": "WS",
+    "ISO639": "sm",
+    "mnc": "001"
+  },
+  "686": {
+    "country": "Kiribati",
+    "mcc": [
+      "545"
+    ],
+    "ISO3166": "KI",
+    "ISO639": "en",
+    "mnc": "009"
+  },
+  "687": {
+    "country": "New Caledonia",
+    "mcc": [
+      "546"
+    ],
+    "ISO3166": "NC",
+    "ISO639": "fr",
+    "mnc": "001"
+  },
+  "688": {
+    "country": "Tuvalu",
+    "mcc": [
+      "553"
+    ],
+    "ISO3166": "TV",
+    "ISO639": "tvl",
+    "mnc": "001"
+  },
+  "689": {
+    "country": "French Polynesia",
+    "mcc": [
+      "547"
+    ],
+    "ISO3166": "PF",
+    "ISO639": "fr",
+    "mnc": "015"
+  },
+  "690": {
+    "country": "Tokelau",
+    "mcc": [
+      "690"
+    ],
+    "ISO3166": "TK",
+    "ISO639": "tkl",
+    "mnc": "001"
+  },
+  "691": {
+    "country": "Federated States of Micronesia",
+    "mcc": [
+      "550"
+    ],
+    "ISO3166": "FM",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "692": {
+    "country": "Marshall Islands",
+    "mcc": [
+      "551"
+    ],
+    "ISO3166": "MH",
+    "ISO639": "mh",
+    "mnc": "001"
+  },
+  "712": {
+    "country": "Cote d'Ivoire",
+    "mcc": [
+      "612"
+    ],
+    "ISO3166": "CI",
+    "ISO639": "fr",
+    "mnc": "002"
+  },
+  "850": {
+    "country": "North Korea",
+    "mcc": [
+      "467"
+    ],
+    "ISO3166": "KP",
+    "ISO639": "ko",
+    "mnc": "005"
+  },
+  "852": {
+    "country": "Hong Kong",
+    "mcc": [
+      "454"
+    ],
+    "ISO3166": "HK",
+    "ISO639": "zh",
+    "mnc": "006"
+  },
+  "853": {
+    "country": "Macau",
+    "mcc": [
+      "455"
+    ],
+    "ISO3166": "MO",
+    "ISO639": "pt",
+    "mnc": "004"
+  },
+  "855": {
+    "country": "Cambodia",
+    "mcc": [
+      "456"
+    ],
+    "ISO3166": "KH",
+    "ISO639": "km",
+    "mnc": "002"
+  },
+  "856": {
+    "country": "Laos",
+    "mcc": [
+      "457"
+    ],
+    "ISO3166": "LA",
+    "ISO639": "lo",
+    "mnc": "001"
+  },
+  "880": {
+    "country": "Bangladesh",
+    "mcc": [
+      "470"
+    ],
+    "ISO3166": "BD",
+    "ISO639": "bn",
+    "mnc": "001"
+  },
+  "886": {
+    "country": "Taiwan",
+    "mcc": [
+      "466"
+    ],
+    "ISO3166": "TW",
+    "ISO639": "cmn",
+    "mnc": "001"
+  },
+  "960": {
+    "country": "Maldives",
+    "mcc": [
+      "472"
+    ],
+    "ISO3166": "MV",
+    "ISO639": "dv",
+    "mnc": "001"
+  },
+  "961": {
+    "country": "Lebanon",
+    "mcc": [
+      "415"
+    ],
+    "ISO3166": "LB",
+    "ISO639": "ar",
+    "mnc": "003"
+  },
+  "962": {
+    "country": "Jordan",
+    "mcc": [
+      "416"
+    ],
+    "ISO3166": "JO",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "963": {
+    "country": "Syria",
+    "mcc": [
+      "417"
+    ],
+    "ISO3166": "SY",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "964": {
+    "country": "Iraq",
+    "mcc": [
+      "418"
+    ],
+    "ISO3166": "IQ",
+    "ISO639": "ar",
+    "mnc": "020"
+  },
+  "965": {
+    "country": "Kuwait",
+    "mcc": [
+      "419"
+    ],
+    "ISO3166": "KW",
+    "ISO639": "ar",
+    "mnc": "003"
+  },
+  "966": {
+    "country": "Saudi Arabia",
+    "mcc": [
+      "420"
+    ],
+    "ISO3166": "SA",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "967": {
+    "country": "Yemen",
+    "mcc": [
+      "421"
+    ],
+    "ISO3166": "YE",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "968": {
+    "country": "Oman",
+    "mcc": [
+      "422"
+    ],
+    "ISO3166": "OM",
+    "ISO639": "ar",
+    "mnc": "002"
+  },
+  "970": {
+    "country": "West Bank",
+    "mcc": [
+      "0"
+    ],
+    "ISO3166": "PS",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "971": {
+    "country": "United Arab Emirates",
+    "mcc": [
+      "424",
+      "430",
+      "431"
+    ],
+    "ISO3166": "AE",
+    "ISO639": "ar",
+    "mnc": "003"
+  },
+  "972": {
+    "country": "Israel",
+    "mcc": [
+      "425"
+    ],
+    "ISO3166": "IL",
+    "ISO639": "he",
+    "mnc": "001"
+  },
+  "973": {
+    "country": "Bahrain",
+    "mcc": [
+      "426"
+    ],
+    "ISO3166": "BH",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "974": {
+    "country": "Qatar",
+    "mcc": [
+      "427"
+    ],
+    "ISO3166": "QA",
+    "ISO639": "ar",
+    "mnc": "001"
+  },
+  "975": {
+    "country": "Bhutan",
+    "mcc": [
+      "402"
+    ],
+    "ISO3166": "BT",
+    "ISO639": "dz",
+    "mnc": "011"
+  },
+  "976": {
+    "country": "Mongolia",
+    "mcc": [
+      "428"
+    ],
+    "ISO3166": "MN",
+    "ISO639": "mn",
+    "mnc": "088"
+  },
+  "977": {
+    "country": "Nepal",
+    "mcc": [
+      "429"
+    ],
+    "ISO3166": "NP",
+    "ISO639": "ne",
+    "mnc": "001"
+  },
+  "992": {
+    "country": "Tajikistan",
+    "mcc": [
+      "436"
+    ],
+    "ISO3166": "TJ",
+    "ISO639": "tg",
+    "mnc": "001"
+  },
+  "993": {
+    "country": "Turkmenistan",
+    "mcc": [
+      "438"
+    ],
+    "ISO3166": "TM",
+    "ISO639": "tk",
+    "mnc": "001"
+  },
+  "994": {
+    "country": "Azerbaijan",
+    "mcc": [
+      "400"
+    ],
+    "ISO3166": "AZ",
+    "ISO639": "az",
+    "mnc": "001"
+  },
+  "995": {
+    "country": "Georgia",
+    "mcc": [
+      "282"
+    ],
+    "ISO3166": "GE",
+    "ISO639": "ka",
+    "mnc": "001"
+  },
+  "996": {
+    "country": "Kyrgyzstan",
+    "mcc": [
+      "437"
+    ],
+    "ISO3166": "KG",
+    "ISO639": "ky",
+    "mnc": "001"
+  },
+  "998": {
+    "country": "Uzbekistan",
+    "mcc": [
+      "434"
+    ],
+    "ISO3166": "UZ",
+    "ISO639": "uz",
+    "mnc": "001"
+  },
+  "1204": {
+    "country": "Manitoba",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1242": {
+    "country": "Bahamas",
+    "mcc": [
+      "364"
+    ],
+    "ISO3166": "BS",
+    "ISO639": "en",
+    "mnc": "039"
+  },
+  "1246": {
+    "country": "Barbados",
+    "mcc": [
+      "342"
+    ],
+    "ISO3166": "BB",
+    "ISO639": "en",
+    "mnc": "750"
+  },
+  "1250": {
+    "country": "British Columbia",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1264": {
+    "country": "Anguilla",
+    "mcc": [
+      "365"
+    ],
+    "ISO3166": "AI",
+    "ISO639": "en",
+    "mnc": "840"
+  },
+  "1268": {
+    "country": "Antigua and Barbuda",
+    "mcc": [
+      "344"
+    ],
+    "ISO3166": "AG",
+    "ISO639": "en",
+    "mnc": "050"
+  },
+  "1284": {
+    "country": "British Virgin Islands",
+    "mcc": [
+      "348"
+    ],
+    "ISO3166": "GB",
+    "ISO639": "en",
+    "mnc": "170"
+  },
+  "1306": {
+    "country": "Saskatchewan",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1340": {
+    "country": "U.S. Virgin Islands",
+    "mcc": [
+      "332"
+    ],
+    "ISO3166": "VI",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "1345": {
+    "country": "Cayman Islands",
+    "mcc": [
+      "346"
+    ],
+    "ISO3166": "GB",
+    "ISO639": "en",
+    "mnc": "050"
+  },
+  "1403": {
+    "country": "Alberta",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "720"
+  },
+  "1416": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1418": {
+    "country": "Quebec",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1441": {
+    "country": "Bermuda",
+    "mcc": [
+      "350"
+    ],
+    "ISO3166": "BM",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "1450": {
+    "country": "Quebec",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1473": {
+    "country": "Grenada",
+    "mcc": [
+      "352"
+    ],
+    "ISO3166": "GD",
+    "ISO639": "en",
+    "mnc": "030"
+  },
+  "1506": {
+    "country": "New Brunswick",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1514": {
+    "country": "Quebec",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1519": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1604": {
+    "country": "British Columbia",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1613": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1647": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1649": {
+    "country": "Turks and Caicos Islands",
+    "mcc": [
+      "376"
+    ],
+    "ISO3166": "TC",
+    "ISO639": "en",
+    "mnc": "350"
+  },
+  "1664": {
+    "country": "Montserrat",
+    "mcc": [
+      "354"
+    ],
+    "ISO3166": "MS",
+    "ISO639": "en",
+    "mnc": "860"
+  },
+  "1670": {
+    "country": "Saint Vincent and the Grenadines",
+    "mcc": [
+      "360"
+    ],
+    "ISO3166": "VC",
+    "ISO639": "en",
+    "mnc": "070"
+  },
+  "1671": {
+    "country": "Guam",
+    "mcc": [
+      "310"
+    ],
+    "ISO3166": "GU",
+    "ISO639": "en",
+    "mnc": "032"
+  },
+  "1705": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1709": {
+    "country": "Newfoundland",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1758": {
+    "country": "Saint Lucia",
+    "mcc": [
+      "358"
+    ],
+    "ISO3166": "LC",
+    "ISO639": "en",
+    "mnc": "050"
+  },
+  "1767": {
+    "country": "Dominica",
+    "mcc": [
+      "366"
+    ],
+    "ISO3166": "DM",
+    "ISO639": "en",
+    "mnc": "020"
+  },
+  "1778": {
+    "country": "British Columbia",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1780": {
+    "country": "Alberta",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "720"
+  },
+  "1807": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1809": {
+    "country": "Dominican Republic",
+    "mcc": [
+      "370"
+    ],
+    "ISO3166": "DO",
+    "ISO639": "es",
+    "mnc": "001"
+  },
+  "1819": {
+    "country": "Quebec",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1829": {
+    "country": "Dominican Republic",
+    "mcc": [
+      "370"
+    ],
+    "ISO3166": "DO",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "1867": {
+    "country": "Northwest Territories",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1868": {
+    "country": "Trinidad and Tobago",
+    "mcc": [
+      "374"
+    ],
+    "ISO3166": "TT",
+    "ISO639": "en",
+    "mnc": "012"
+  },
+  "1869": {
+    "country": "Saint Kitts and Nevis",
+    "mcc": [
+      "356"
+    ],
+    "ISO3166": "KN",
+    "ISO639": "en",
+    "mnc": "050"
+  },
+  "1876": {
+    "country": "Jamaica",
+    "mcc": [
+      "338"
+    ],
+    "ISO3166": "JM",
+    "ISO639": "en",
+    "mnc": "050"
+  },
+  "1902": {
+    "country": "Nova Scotia",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "1905": {
+    "country": "Ontario",
+    "mcc": [
+      "302"
+    ],
+    "ISO3166": "CA",
+    "ISO639": "en",
+    "mnc": "370"
+  },
+  "6721": {
+    "country": "Antarctica (Australian bases)",
+    "mcc": [
+      "232"
+    ],
+    "ISO3166": "AQ",
+    "ISO639": "en",
+    "mnc": "001"
+  },
+  "6723": {
+    "country": "Norfolk Island",
+    "mcc": [
+      "505"
+    ],
+    "ISO3166": "NF",
+    "ISO639": "en",
+    "mnc": "010"
+  }
+}

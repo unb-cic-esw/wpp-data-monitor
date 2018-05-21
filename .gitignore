@@ -12,3 +12,5 @@ distribute-*
 
 # geckodriver files
 *.log
+
+profile/

@@ -1,4 +1,5 @@
 import time
+import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 
-fp = webdriver.FirefoxProfile('/home/dayoff/GitHub/wpp-data-monitor/profile')
+fp = webdriver.FirefoxProfile(os.getcwd())
 # create the fake browser
 driver = webdriver.Firefox(fp)
 

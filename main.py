@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 
-fp = webdriver.FirefoxProfile(os.getcwd())
+fp = webdriver.FirefoxProfile(os.getcwd() + "/profile")
 # create the fake browser
 driver = webdriver.Firefox(fp)
 

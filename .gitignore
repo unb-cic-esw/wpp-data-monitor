@@ -13,4 +13,7 @@ distribute-*
 # geckodriver files
 *.log
 
+# chromedriver
+chromedriver
+
 profile/

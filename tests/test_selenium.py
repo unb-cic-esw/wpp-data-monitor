@@ -1,7 +1,6 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
@@ -9,6 +8,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import unittest
 import time
+import os
 
 
 class TestSelenium(unittest.TestCase):
@@ -19,13 +19,14 @@ class TestSelenium(unittest.TestCase):
 
         # chromedriver binary
         driver_path = os.getcwd() + '/chromedriver'
+        profile_path = os.getcwd() + '/profile/'
 
-        chrome_options = Options()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument()
+        chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument(f'--user-data-dir={profile_path}')
 
         # create the fake browser
-        driver = webdriver.Chrome(driver_path, chrome_options=chrome_options)
+        self.driver = webdriver.Chrome(driver_path, options=chrome_options)
 
         self.wait = WebDriverWait(self.driver, 10)
         # get request using the fake browser
@@ -71,7 +72,9 @@ class TestSelenium(unittest.TestCase):
         input_group = self.driver.find_element_by_xpath(xpath_input_group)
         text = 'Olá, resocie!'
         input_group.send_keys(text)
-        self.driver.find_element_by_tag_name("body").send_keys(Keys.RETURN)
+        xpath_send_group = "//span[@data-icon='send']"
+        send_group = self.driver.find_element_by_xpath(xpath_send_group)
+        send_group.click()
 
         time.sleep(2)
         html = self.driver.page_source

@@ -22,7 +22,7 @@ $ mkdir profile
 Copiar seu cache do Chrome na pasta profile, e.g.:
 
 ```bash
-$ cp $HOME/.cache/google-chrome/Default/Cache/* profile/
+$ cp -r $HOME/.config/google-chrome/Default/ profile/
 ```
 
 ## Execução

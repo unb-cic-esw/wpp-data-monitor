@@ -22,7 +22,7 @@ def main():
     xpath_home = "//*[contains(text(), 'Mantenha seu telefone conectado')]"
     wait_for_element(xpath_home)
 
-    group_name = 'GRUPO DAS PESSOAS LEGAIS'
+    group_name = 'GRUPO DAORA'
     xpath_group = '//*[@title="{}"]'.format(group_name)
 
     wait_for_element(xpath_group)
@@ -34,7 +34,7 @@ def main():
 
     xpath_input_group = "//div[@contenteditable='true']"
     input_group = driver.find_element_by_xpath(xpath_input_group)
-    text = 'olar teozinnnn'
+    text = 'olaarrrr, quer tc?'
     input_group.send_keys(text)
     driver.find_element_by_tag_name("body").send_keys(Keys.RETURN)
 

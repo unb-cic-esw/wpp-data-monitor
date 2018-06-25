@@ -1,34 +1,45 @@
-import time
-import unittest
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+
+from selenium import webdriver
+from bs4 import BeautifulSoup
+import unittest
+import time
+
 
 class TestSelenium(unittest.TestCase):
 
     def setUp(self):
-        fp = webdriver.FirefoxProfile('/home/dayoff/GitHub/wpp-data-monitor/profile')
+        # default group to test
+        self.default_group = 'GRUPO RESOCIE'
+
+        # chromedriver binary
+        driver_path = os.getcwd() + '/chromedriver'
+
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument()
 
         # create the fake browser
-        self.driver = webdriver.Firefox(fp)
+        driver = webdriver.Chrome(driver_path, chrome_options=chrome_options)
+
         self.wait = WebDriverWait(self.driver, 10)
         # get request using the fake browser
         self.driver.get('https://web.whatsapp.com/')
         xpath_home = "//*[contains(text(), 'Mantenha seu telefone conectado')]"
         self.wait_for_element(xpath_home)
 
+
     def wait_for_element(self, name):
         return self.wait.until(EC.visibility_of_element_located((By.XPATH,
                                                                     name)))
 
-    def test_click_on_group(self):
-        group_name = 'GRUPO DAS PESSOAS LEGAIS'
-        xpath_group = '//*[@title="{}"]'.format(group_name)
-
+    def test_click_on_default_group(self):
+        xpath_group = f'//*[@title="{self.default_group}"]'
         self.wait_for_element(xpath_group)
 
         group = self.driver.find_element_by_xpath(xpath_group)
@@ -36,12 +47,13 @@ class TestSelenium(unittest.TestCase):
 
         groups = self.driver.find_elements_by_xpath(xpath_group)
 
+        # after click on the group, if there are two title of this group on
+        # the screen it means that there are information about them on the
+        # sidebar and as the title in the header of the group clicked
         self.assertEqual(2, len(groups))
 
     def test_click_on_group_and_send_text(self):
-        group_name = 'GRUPO DAS PESSOAS LEGAIS'
-        xpath_group = '//*[@title="{}"]'.format(group_name)
-
+        xpath_group = f'//*[@title="{self.default_group}"]'
         self.wait_for_element(xpath_group)
 
         group = self.driver.find_element_by_xpath(xpath_group)
@@ -49,11 +61,15 @@ class TestSelenium(unittest.TestCase):
 
         groups = self.driver.find_elements_by_xpath(xpath_group)
 
+        # after click on the group, if there are two title of this group on
+        # the screen it means that there are information about them on the
+        # sidebar and as the title in the header of the group clicked
         self.assertEqual(2, len(groups))
 
+        # finds the form input
         xpath_input_group = "//div[@contenteditable='true']"
         input_group = self.driver.find_element_by_xpath(xpath_input_group)
-        text = 'olar teozinnnn'
+        text = 'Olá, resocie!'
         input_group.send_keys(text)
         self.driver.find_element_by_tag_name("body").send_keys(Keys.RETURN)
 
@@ -64,12 +80,14 @@ class TestSelenium(unittest.TestCase):
         texts = soup.findAll("span",
                     {"class": "selectable-text invisible-space copyable-text"})
 
+        # checks if the last message received in the group was the message sent
         self.assertEqual(text, texts[-1].text)
 
     def tearDown(self):
         # wait a little and close the fake web
         time.sleep(2)
         self.driver.quit()
+
 
 if __name__ == '__main__':
     unittest.main()

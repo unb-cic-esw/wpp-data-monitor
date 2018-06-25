@@ -1,42 +1,27 @@
-# Whatsapp Data Monitor
+<p align="center">
+  <img src="https://4.bp.blogspot.com/-JodJ7vCcXAw/Wd4vX3mvLhI/AAAAAAAA4fM/s1e439c_R_AUU2dyyIpniA9xgYBj0WiogCLcBGAs/s1600/whatsapp.png"
+			width="200px"/>
+  <h4 align="center">Whatsapp Data Monitor</h4>
+  <p align="center">
+    <img src="https://img.shields.io/badge/platform-Linux-blue.svg"/>
+  </p>
+</p>
 
-## Ferramentas
+![Travis_Build](https://travis-ci.org/unb-cic-esw/wpp-data-monitor.svg?branch=master)
 
-- Selenium com ChromeDriver
-  - Download do ChromeDriver (Linux64)
-	  ```bash
-		$ wget https://chromedriver.storage.googleapis.com/2.39/chromedriver_linux64.zip
-		$ unzip chromedriver_linux64.zip
-    $ rm chromedriver_linux64.zip
-		```
-- BeautifulSoup (requirements.txt)
+Este repositório compõe projeto de pesquisa com foco empírico nas eleições
+brasileiras de 2018 do grupo de pesquisa [Resocie](http://resocie.org) do
+[Instituto de Ciência Política - IPOL](http://ipol.unb.br/) com o apoio técnico
+do [Departamento de Computação - CIC](http://www.cic.unb.br/) da
+[Universidade de Brasília - UnB](http://unb.br).
 
-## Instalação
+O projeto consiste na coleta sistemática de informações quantitativas da
+plataforma Whatsapp com o objetivo de subsidiar a análise do comportamento
+político de alguns atores da cena eleitoral durante o período de campanha.
+Além de seu objetivo finalístico para a coleta de dados, o projeto tem também
+por intuito servir de material de estudo dos alunos da disciplina Engenharia
+de Software do Departamento de Ciência da Computação da UnB no 1º semestre de
+2018.
 
-```
-$ virtualenv -p python3 venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
-$ mkdir profile
-```
-
-Copiar seu cache do Chrome na pasta profile, e.g.:
-
-```bash
-$ cp $HOME/.mozilla/firefox/xgcc4j63.default/webappsstore* profile/
-```
-
-Obs.: O caminho do cache e o nome ``xgcc4j63`` antes do .default pode variar
-então confira antes de realizar a cópia.
-
-## Execução
-
-- Testes
-```
-$ python test_selenium.py
-```
-
-- Arquivo que coleta última mensagem e reenvia
-```
-$ python main.py
-```
+Para contribuir com o repositório, favor leia o arquivo
+[CONTRIBUTING to resocie wpp-data-monitor](CONTRIBUTING.md) antes.

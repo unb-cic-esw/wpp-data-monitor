@@ -8,7 +8,7 @@
     $ rm chromedriver_linux64.zip
     ```
 
-- BeautifulSoup (requirements.txt)
+- BeautifulSoup
 
 ## Instalação
 

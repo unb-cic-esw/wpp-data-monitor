@@ -22,13 +22,13 @@ class TestSelenium(unittest.TestCase):
         profile_path = os.getcwd() + '/profile/'
 
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--headless')
         chrome_options.add_argument(f'--user-data-dir={profile_path}')
 
         # create the fake browser
         self.driver = webdriver.Chrome(driver_path, options=chrome_options)
 
-        self.wait = WebDriverWait(self.driver, 10)
+        self.wait = WebDriverWait(self.driver, 15)
         # get request using the fake browser
         self.driver.get('https://web.whatsapp.com/')
         xpath_home = "//*[contains(text(), 'Mantenha seu telefone conectado')]"

@@ -15,7 +15,7 @@
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ pip install -r requirements.txt
+$ pip install -e .
 $ mkdir profile
 ```
 
@@ -32,7 +32,7 @@ $ cp -r $HOME/.config/google-chrome/Default/ profile/
 $ python -m unittest discover tests
 ```
 
-- Software que monitora um grupo:
+- Software que monitora um grupo do whatsapp:
 ```
-$ python main.py
+$ wpp
 ```

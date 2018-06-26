@@ -7,8 +7,6 @@
   </p>
 </p>
 
-![Travis_Build](https://travis-ci.org/unb-cic-esw/wpp-data-monitor.svg?branch=master)
-
 Este repositório compõe projeto de pesquisa com foco empírico nas eleições
 brasileiras de 2018 do grupo de pesquisa [Resocie](http://resocie.org) do
 [Instituto de Ciência Política - IPOL](http://ipol.unb.br/) com o apoio técnico

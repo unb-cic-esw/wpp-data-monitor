@@ -44,7 +44,7 @@ def wait_for_element(name):
     return wait.until(EC.visibility_of_element_located((By.XPATH, name)))
 
 def static_dir(path):
-    return 'data/'+path
+    return 'data/groups/'+path
 
 def main():
     for word in BAG_WORDS:

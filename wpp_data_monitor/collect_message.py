@@ -4,14 +4,16 @@ from selenium.webdriver.common.by import By
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
+from datetime import datetime
 import time
+import csv
 import os
 
 
 class EngineWpp:
     def __init__(self):
-        # default group to test
-        self.default_group = 'GRUPO RESOCIE'
+        # default group name to test
+        self.group_name = 'GRUPO RESOCIE'
 
         # chromedriver binary
         driver_path = os.getcwd() + '/chromedriver'
@@ -31,11 +33,13 @@ class EngineWpp:
         self.wait_for_element(xpath_home)
 
         self.last_row = None
+        self.static_dir = os.getcwd() + '/data/messages'
 
     def wait_for_element(self, name):
         return self.wait.until(EC.visibility_of_element_located((By.XPATH, name)))
 
     def click_group(self, group_name):
+        self.group_name = group_name
         xpath_group = f'//*[@title="{group_name}"]'
         self.wait_for_element(xpath_group)
 
@@ -82,3 +86,23 @@ class EngineWpp:
             package_messages.append(self.get_info_from_row(soup))
 
         return package_messages
+
+    def record_messages(self, package_messages):
+        now_dt = datetime.now().strftime("%d-%m-%Y")
+        filename = f'{now_dt}.csv'
+        group_name = self.group_name.replace(' ', '_')
+        file_path = f'{self.static_dir}/{group_name}'
+
+        if not os.path.exists(file_path):
+            os.makedirs(file_path)
+
+        full_filename = f'{file_path}/{filename}'
+
+        with open(full_filename, 'w') as outcsv:
+            writer = csv.DictWriter(outcsv, fieldnames = ['user', 'datetime',
+                                                        'message'])
+            writer.writeheader()
+            writer.writerows({'user': message[0],
+                            'datetime': message[1],
+                            'message': message[2]}
+                            for message in package_messages)

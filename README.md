@@ -23,3 +23,5 @@ de Software do Departamento de Ciência da Computação da UnB no 1º semestre d
 
 Para contribuir com o repositório, favor leia o arquivo
 [CONTRIBUTING to resocie wpp-data-monitor](CONTRIBUTING.md) antes.
+
+[Apresentação final da matéria de Engenharia de Software de 2018/1.](https://docs.google.com/presentation/d/18i76YRdUsd1Z6mm4Yrp-ESplB-poxhNjii8CrIx2B0A/edit?usp=sharing)

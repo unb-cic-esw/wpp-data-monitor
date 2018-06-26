@@ -16,23 +16,25 @@
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -e .
-$ mkdir profile
 ```
 
-Copiar seu cache do Chrome na pasta profile, e.g.:
+Logue no whatsapp no Google Chrome normalmente, feche o navegador e copie seu cache na pasta profile na pasta raiz do repositório, e.g.:
 
 ```bash
+$ mkdir profile
 $ cp -r $HOME/.config/google-chrome/Default/ profile/
 ```
 
 ## Execução
 
-- Testes
+```
+$ wpp
+```
+
+## Testes
+
 ```
 $ python -m unittest discover tests
 ```
 
-- Software que monitora um grupo do whatsapp:
-```
-$ wpp
-```
+
